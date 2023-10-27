@@ -1,0 +1,16 @@
+$TTL 3H
+@	IN SOA	dns   admin.dns (
+
+				202320021	; serial
+				1D		; refresh
+				1H		; retry
+				1W		; expire
+				3H )		; minimum
+
+	    IN	NS	dns
+     
+dns 	IN	A	192.168.3.5
+lb1	  IN	A	192.168.3.20	
+lb2 	IN	A	192.168.3.36	
+back1	IN	A 192.168.3.52
+back2	IN	A	192.168.3.68
