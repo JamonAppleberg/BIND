@@ -1,0 +1,16 @@
+$TTL 3H
+@	IN SOA	dns.lab. admin.dns (
+			20232002	; serial
+			1D		; refresh
+			1H		; retry
+			1W		; expire
+			3H ) 		; minimum
+
+
+	  IN	NS	dns.
+
+5	  IN	PTR 	dns.lab.
+20	IN	PTR	lb.lab.
+36	IN	PTR	lb2.lab.
+52	IN	PTR	back1.lab.
+68	IN 	PTR	back2.lab.
